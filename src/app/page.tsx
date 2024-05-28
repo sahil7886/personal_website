@@ -24,7 +24,7 @@ export default function Home() {
         </ul>
       </nav>
       <div className="my-10 text-center animate-fade-in">
-        <h2 className="text-xl text-zinc-300 duration-500 hover:text-transparent">
+        <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
           Hey there! I'm
         </h2>
       </div>
@@ -38,7 +38,7 @@ export default function Home() {
       </h1>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-lg text-zinc-400 duration-550 hover:text-transparent">
+        <h2 className="text-lg text-zinc-400 hover:text-transparent duration-500">
           I'm studying Computer Science at Purdue University.
         </h2>
       </div>
