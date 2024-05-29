@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.13",
     "framer-motion": "^11.2.6",
+    "lucide-react": "^0.379.0",
     "next": "14.2.3",
     "postcss-nesting": "^12.1.5",
     "react": "^18",
