@@ -66,7 +66,7 @@ export default function Home() {
           <div className="w-full h-px bg-zinc-800" />
           <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
             <Card>
-              {/* <Link href={``}> */}
+              <Link href={`https://github.com/sahil7886/fitness-log`}>
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
@@ -78,46 +78,70 @@ export default function Home() {
                   <h2
                     className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
                   >
-                    Fitness Tracker
+                    Workout Tracker
                   </h2>
                   <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                    Web application using MERN stack that allows users to track workouts and exercises
+                    Web application using MERN stack along with Tailwind CSS that allows users to track workouts and exercises. This was done as part of a Database design course.
                   </p>
                   <div className="absolute bottom-4 md:bottom-8">
                     <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                      Read more <span aria-hidden="true">&rarr;</span>
+                      Check it out <span aria-hidden="true">&rarr;</span>
                     </p>
                   </div>
                 </article>
-              {/* </Link> */}
+              </Link>
             </Card>
             <Card>
-              {/* <Link href={`/`}> */}
+              <Link href={`https://github.com/mdmudassir0143/Algorand-IITBombay/`}>
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
                     <time dateTime="2024-04">
-                      April 2024
+                      May 2024 - July 2024
                     </time>
                   </div>
                   </div>
-
-                  <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
-                    Shell
+                  <h2
+                    className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                  >
+                    AlgoVerify
                   </h2>
                   <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                    Made my own terminal that handles bash and unix commands, including wildcards, subshell, scripts, etc.
+                    Web application using smart contracts, built with PyTeal, on the Algorand blockchain to verify official documents such as University degrees.
                   </p>
                   <div className="absolute bottom-4 md:bottom-8">
                     <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                      Read more <span aria-hidden="true">&rarr;</span>
+                      Check it out <span aria-hidden="true">&rarr;</span>
                     </p>
                   </div>
                 </article>
-              {/* </Link> */}
+              </Link>
             </Card>
             <Card>
-              {/* <Link href={`/`}> */}
+              <article className="relative w-full h-full p-4 md:p-8">
+                <div className="flex items-center justify-between gap-2">
+                <div className="text-xs text-zinc-100">
+                  <time dateTime="2024-04">
+                    April 2024
+                  </time>
+                </div>
+                </div>
+
+                <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
+                  Shell
+                </h2>
+                <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                  Made my own terminal that handles bash and unix commands, including wildcards, subshell, scripts, etc. Utilized lex and yacc for parsing, and implemented the terminal using C and C++ with extensive use of system calls.
+                </p>
+                <div className="absolute bottom-4 md:bottom-8">
+                  <p className="hidden text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                    This code is private 
+                  </p>
+                </div>
+              </article>
+            </Card>
+            <Card>
+              <Link href={`https://github.com/sahil7886/personal_website`}>
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
@@ -131,15 +155,39 @@ export default function Home() {
                     sahilshaikh.live
                   </h2>
                   <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                    This website you are looking at right now. Created using NextJS and Tailwind CSS.
+                    This website you are looking at right now. Created using NextJS, Tailwind CSS and hosted on Vercel. 
                   </p>
                   <div className="absolute bottom-4 md:bottom-8">
                     <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                      Read more <span aria-hidden="true">&rarr;</span>
+                      Check it out <span aria-hidden="true">&rarr;</span>
                     </p>
                   </div>
                 </article>
-              {/* </Link> */}
+              </Link>
+            </Card>
+            <Card>
+              <Link href={`https://devpost.com/software/boiler-maps`}>
+                <article className="relative w-full h-full p-4 md:p-8">
+                  <div className="flex items-center justify-between gap-2">
+                  <div className="text-xs text-zinc-100">
+                    <time dateTime="2024-04">
+                      January 2023
+                    </time>
+                  </div>
+                  </div>
+                  <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
+                    Boiler Maps
+                  </h2>
+                  <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                    Created a data visualisation platform mapping the impact of emissions on our environment in an interactive dashboard using html, css, pandas and plotly. 
+                  </p>
+                  <div className="absolute bottom-4 md:bottom-8">
+                    <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
+                      Check it out <span aria-hidden="true">&rarr;</span>
+                    </p>
+                  </div>
+                </article>
+              </Link>
             </Card>
           </div>
         </div>
@@ -174,6 +222,7 @@ export default function Home() {
                   </div>
                 </Link>
               </Card>
+              
             ))}
           </div>
         </div>
