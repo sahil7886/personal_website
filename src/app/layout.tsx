@@ -1,12 +1,14 @@
 import "./globals.css";
 import { Inter, Urbanist } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: {
-    default: "sahilshaikh.something",
+    default: "Sahil Shaikh",
   },
   description: "Personal website for Sahil Shaikh",
 };
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -28,9 +30,9 @@ export default function RootLayout({
       <head>
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined}`}
       >
+        <SpeedInsights />
         {children}
       </body>
     </html>
