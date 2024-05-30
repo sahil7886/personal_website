@@ -7,7 +7,10 @@ export const metadata = {
   title: {
     default: "Sahil Shaikh",
   },
-  description: "Personal website for Sahil Shaikh",
+  description: "heheheSIUUUUUUUU",
+  icons: {
+    shortcut: "/favicon.png",
+  },
 };
 
 const inter = Inter({
