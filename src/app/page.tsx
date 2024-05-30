@@ -37,7 +37,7 @@ export default function Home() {
       <Navigation/>
       <div className="mt-60 mb-16 text-center animate-fade-in">
         <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
-          Hey there! I'm
+          Hey there! I&apos;m
         </h2>
       </div>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
@@ -51,7 +51,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="mt-24 mb-16 text-center animate-fade-in">
         <h2 className="text-lg text-zinc-400 hover:text-transparent duration-500">
-          I'm studying Computer Science at Purdue University.
+          I&apos;m studying Computer Science at Purdue University.
         </h2>
       </div>
         <div id = "projects" className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
@@ -150,8 +150,8 @@ export default function Home() {
             <div className="w-full h-px bg-zinc-800" />
             
           <div className="mt-0 pb-36 grid w-full grid-cols-1 gap-8 mx-auto sm:grid-cols-3 lg:gap-16">
-            {socials.map((s) => (
-              <Card>
+            {socials.map((s, index) => (
+              <Card key={index}>
                 <Link
                   href={s.href}
                   target="_blank"
