@@ -66,7 +66,7 @@ export default function Home() {
           <div className="w-full h-px bg-zinc-800" />
           <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
             <Card>
-              <Link href={`/`}>
+              {/* <Link href={``}> */}
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
@@ -89,10 +89,10 @@ export default function Home() {
                     </p>
                   </div>
                 </article>
-              </Link>
+              {/* </Link> */}
             </Card>
             <Card>
-              <Link href={`/`}>
+              {/* <Link href={`/`}> */}
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
@@ -114,10 +114,10 @@ export default function Home() {
                     </p>
                   </div>
                 </article>
-              </Link>
+              {/* </Link> */}
             </Card>
             <Card>
-              <Link href={`/`}>
+              {/* <Link href={`/`}> */}
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                   <div className="text-xs text-zinc-100">
@@ -128,7 +128,7 @@ export default function Home() {
                   </div>
 
                   <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
-                    sahilshaikh.com
+                    sahilshaikh.live
                   </h2>
                   <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                     This website you are looking at right now. Created using NextJS and Tailwind CSS.
@@ -139,7 +139,7 @@ export default function Home() {
                     </p>
                   </div>
                 </article>
-              </Link>
+              {/* </Link> */}
             </Card>
           </div>
         </div>
