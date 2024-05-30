@@ -33,7 +33,7 @@ const socials = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
       <Navigation/>
       <div className="mt-60 mb-16 text-center animate-fade-in">
         <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
