@@ -50,8 +50,8 @@ export default function Home() {
       </h1>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="mt-24 mb-16 text-center animate-fade-in">
-        <h2 className="text-lg text-zinc-400 hover:text-transparent duration-500">
-          I&apos;m studying Computer Science at Purdue University.
+        <h2 className="max-w-lg text-center text-base text-zinc-400 hover:text-transparent duration-500" >
+          Envisioning the future through code. Pursuing Computer Science and Data Science at Purdue University.
         </h2>
       </div>
         <div id = "projects" className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
