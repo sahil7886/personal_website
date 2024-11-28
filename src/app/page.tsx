@@ -34,14 +34,14 @@ const socials = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
       <Navigation/>
       <div className="mt-60 mb-16 text-center animate-fade-in">
         <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
           Hey there! I&apos;m
         </h2>
       </div>
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
@@ -49,7 +49,7 @@ export default function Home() {
       <h1 className="z-10 text-4xl tracking-tight text-transparent duration-1100 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
         Sahil Shaikh
       </h1>
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className="hidden w-full h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="mt-24 mb-16 text-center animate-fade-in">
         <h2 className="max-w-lg text-center text-base text-zinc-400 hover:text-transparent duration-500" >
           Envisioning the future through code. Pursuing Computer Science and Data Science at Purdue University.
@@ -71,6 +71,170 @@ export default function Home() {
         </div>
         <div className="w-full h-px bg-zinc-800" />
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
+        <Card>
+            <Link href={`https://github.com/mdmudassir0143/Algorand-IITBombay/`}>
+              <article className="relative w-full h-full p-4 md:p-8">
+                <div className="flex items-center justify-between gap-2">
+                <div className="text-xs text-zinc-100">
+                  <time dateTime="2024-04">
+                    May 2024 - July 2024
+                  </time>
+                </div>
+                </div>
+                <h2
+                  className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                >
+                  AlgoTrust
+                </h2>
+                <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                  Document verification platform built using smart contracts on the Algorand blockchain, IPFS storage and zk-based verification. Built using PyTeal, ReactJS, Flask and Python. Worked in collaboration with peers from Trust Lab, IIT Bombay.
+                </p>
+                <div className="absolute bottom-4 md:bottom-8">
+                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
+                    Check it out <span aria-hidden="true">&rarr;</span>
+                  </p>
+                </div>
+              </article>
+            </Link>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  November 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-3xl font-display">
+                Fashion Image Classification Engine
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Built dual neural network implementations analyzing 70,000+ fashion product images using NumPy and PyTorch-Torchvision. Achieved 85%+ accuracy in classifying clothing items through custom backpropagation and optimization techniques.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                  This code is private 
+                </p>
+              </div> */}
+            </article>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  November 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-3xl font-display">
+                Book Recommendation Engine
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Built a recommendation system analyzing 1M+ book ratings using collaborative filtering and K-means clustering in Python. Implemented user-based similarity metrics and cluster analysis for personalized book suggestions.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                  This code is private 
+                </p>
+              </div> */}
+            </article>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  October 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-3xl font-display">
+                Diabetes Risk Prediction System
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Engineered a medical diagnostic model analyzing patient health metrics using NumPy-based logistic regression and perceptron algorithms. Implemented gradient descent and MLE for 90%+ prediction accuracy on clinical data.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                  This code is private 
+                </p>
+              </div> */}
+            </article>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  April 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
+                Shell
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Made my own terminal that handles bash and unix commands, including wildcards, subshell, scripts, etc. Utilized lex and yacc for parsing, and implemented the terminal using C and C++ with extensive use of system calls.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                  This code is private 
+                </p>
+              </div> */}
+            </article>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  October 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
+                Fitness Data Analytics
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Analyzed Fitbit time-series data using pandas and seaborn, performing statistical analysis on health metrics to discover activity patterns through data visualization and correlation studies.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+                  This code is private 
+                </p>
+              </div> */}
+            </article>
+          </Card>
+          <Card>
+            <article className="relative w-full h-full p-4 md:p-8">
+              <div className="flex items-center justify-between gap-2">
+              <div className="text-xs text-zinc-100">
+                <time dateTime="2024-04">
+                  September 2024
+                </time>
+              </div>
+              </div>
+
+              <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-3xl font-display">
+                Natural Language Processing with TF-IDF
+              </h2>
+              <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                Implemented TF-IDF vectorization and NLTK-based NLP pipeline in Python to analyze document similarities across classic literature, featuring custom preprocessing and cosine similarity calculations.
+              </p>
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
+                  Check it out <span aria-hidden="true">&rarr;</span>
+                </p>
+              </div> */}
+            </article>
+          </Card>
           <Card>
             <Link href={`https://github.com/sahil7886/fitness-log`}>
               <article className="relative w-full h-full p-4 md:p-8">
@@ -97,53 +261,28 @@ export default function Home() {
               </article>
             </Link>
           </Card>
-          <Card>
-            <Link href={`https://github.com/mdmudassir0143/Algorand-IITBombay/`}>
-              <article className="relative w-full h-full p-4 md:p-8">
-                <div className="flex items-center justify-between gap-2">
-                <div className="text-xs text-zinc-100">
-                  <time dateTime="2024-04">
-                    May 2024 - July 2024
-                  </time>
-                </div>
-                </div>
-                <h2
-                  className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
-                >
-                  AlgoTrust
-                </h2>
-                <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  Web application using smart contracts on the Algorand blockchain to verify official documents such as University degrees. Built using PyTeal, React, Tailwind CSS, Flask and Python.
-                </p>
-                <div className="absolute bottom-4 md:bottom-8">
-                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                    Check it out <span aria-hidden="true">&rarr;</span>
-                  </p>
-                </div>
-              </article>
-            </Link>
-          </Card>
+
           <Card>
             <article className="relative w-full h-full p-4 md:p-8">
               <div className="flex items-center justify-between gap-2">
               <div className="text-xs text-zinc-100">
                 <time dateTime="2024-04">
-                  April 2024
+                  December 2023
                 </time>
               </div>
               </div>
 
               <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
-                Shell
+                C Compiler
               </h2>
               <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                Made my own terminal that handles bash and unix commands, including wildcards, subshell, scripts, etc. Utilized lex and yacc for parsing, and implemented the terminal using C and C++ with extensive use of system calls.
+                Built a C compiler translating to x86_64 assembly, utilizing lex and yacc for robust parsing, supporting diverse C features.
               </p>
-              <div className="absolute bottom-4 md:bottom-8">
-                <p className="hidden text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
+              {/* <div className="absolute bottom-4 md:bottom-8">
+                <p className="hidden text-xs text-zinc-400 hover:text-zinc-500 duration-200 lg:block">
                   This code is private 
                 </p>
-              </div>
+              </div> */}
             </article>
           </Card>
           <Card>
@@ -161,7 +300,7 @@ export default function Home() {
                   sahilshaikh.live
                 </h2>
                 <p className="mt-4 mb-14 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  This website you are looking at right now. Created using NextJS, Tailwind CSS and hosted on Vercel. 
+                  This website. Created using NextJS, Tailwind CSS and hosted on Vercel. 
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
                   <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">

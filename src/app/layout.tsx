@@ -7,7 +7,7 @@ export const metadata = {
   title: {
     default: "Sahil Shaikh",
   },
-  description: "heheheSIUUUUUUUU",
+  description: "Sahil Shaikh's Portfolio",
   icons: {
     shortcut: "/favicon.png",
   },
