@@ -12,3 +12,11 @@ html {
   }
 } 
 
+/* Custom cursor styles
+* {
+  cursor: url('/cursor.svg') 0 0, auto;
+}
+
+a, button, [role="button"], select, input[type="submit"], input[type="reset"], input[type="button"] {
+  cursor: url('/hand.svg') 0 0, pointer;
+} */
