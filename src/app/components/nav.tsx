@@ -2,7 +2,17 @@
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
-export const Navigation: React.FC = () => {
+interface NavigationItem {
+	name: string;
+	href: string;
+	external?: boolean;
+}
+
+interface NavigationProps {
+	items: NavigationItem[];
+}
+
+export const Navigation: React.FC<NavigationProps> = ({ items }) => {
 	const ref = useRef<HTMLElement>(null);
 	const [isIntersecting, setIntersecting] = useState(true);
 
@@ -27,18 +37,16 @@ export const Navigation: React.FC = () => {
 			>
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
 					<div className="flex justify-between gap-8">
-						<Link
-							href="#projects"
-							className="duration-200 text-zinc-400 hover:text-zinc-100 animate-fade-in"
-						>
-							Projects
-						</Link>
-						<Link
-							href="#contact"
-							className="duration-200 text-zinc-400 hover:text-zinc-100 animate-fade-in"
-						>
-							Contact
-						</Link>
+						{items.map((item) => (
+							<Link
+								key={item.name}
+								href={item.href}
+								target={item.external ? "_blank" : undefined}
+								className="duration-200 text-zinc-400 hover:text-zinc-100 animate-fade-in"
+							>
+								{item.name}
+							</Link>
+						))}
 					</div>
 
 					<Link

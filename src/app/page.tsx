@@ -8,8 +8,9 @@ import { ChevronDown } from "lucide-react";
 import { projects } from "../data/projects";
 
 const navigation = [
-  { name: "Projects", href: "" },
-  { name: "Contact", href: "" },
+  { name: "Projects", href: "#projects" },
+  { name: "Resume", href: "/resume.pdf", external: true },
+  { name: "Contact", href: "#contact" },
 ];
 
 const socials = [
@@ -36,7 +37,7 @@ const socials = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
-      <Navigation/>
+      <Navigation items={navigation}/>
       <div className="mt-60 mb-16 text-center animate-fade-in">
         <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
           Hey there! I&apos;m
