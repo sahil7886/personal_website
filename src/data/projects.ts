@@ -10,6 +10,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "synq",
+    title: "Synq",
+    description: "We're working on a DevOps platform that redefines developer workflows for fast-paced teams by integrating version control with project management. It features a custom VCS (Go & Python) that streamlines collaboration through task-based commits, automated file locks, majorly cutting merge conflicts.",
+    date: "May 2025 - Present",
+    dateTime: "2025-05",
+    href: "https://synq.website",
+    showCheckItOut: true
+  },
+  {
+    id: "anypay",
+    title: "AnyPay",
+    description: "AnyPay is a Web3 payment platform that makes crypto accessible to everyone. It simplifies cross-chain payments with AI-powered expense splitting from images or text, and in-app wallet creation. Winner of 'Best use of Chainlink CCIP/CCT' at ETHGlobal NYC '25",
+    date: "August 2025",
+    dateTime: "2025-08",
+    href: "https://ethglobal.com/showcase/anypay-t4xox",
+    showCheckItOut: true
+  },
+  {
+    id: "baxter-robot",
+    title: "Baxter Robot Musician",
+    description: "Taught a Baxter robot how to play the drums! Developed ROS-based calibration scripts and tempo-controlled trajectory scripts that allows it to play melodies on a steel tongue drum.",
+    date: "April 2025 - Present",
+    dateTime: "2025-04",
+  },
+  {
     id: "golfmate",
     title: "GolfMate",
     description: "AI-powered golf swing analysis tool that uses a GRU-based neural network to evaluate posture in real time, classify swing quality, and offer targeted form corrections. Winner of the 'Best AI-Driven Solution' prize at Catapult 2025.",
@@ -48,6 +73,13 @@ export const projects: Project[] = [
     title: "Diabetes Risk Prediction System",
     description: "Engineered a medical diagnostic model analyzing patient health metrics using NumPy-based logistic regression and perceptron algorithms. Implemented gradient descent and MLE for 90%+ prediction accuracy on clinical data.",
     date: "October 2024",
+    dateTime: "2024-04"
+  },
+  {
+    id: "http-server",
+    title: "HTTP Web Server",
+    description: "Built a multi-threaded HTTP web server from scratch in C++. Implemented support for concurrent connections, serving static and dynamic content, and executing CGI scripts.",
+    date: "April 2024",
     dateTime: "2024-04"
   },
   {

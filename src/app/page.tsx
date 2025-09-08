@@ -16,7 +16,7 @@ const navigation = [
 const socials = [
 	{
 		icon: <LinkedinIcon size={20} />,
-		href: "https://www.linkedin.com/in/sahil-shaikh-923876238/",
+		href: "https://www.linkedin.com/in/sahil-shk/",
 		label: "Linkedin",
 		handle: "Sahil Shaikh",
 	},
@@ -39,7 +39,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center w-full min-h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-500/20 to-black">
       <Navigation items={navigation}/>
       <div className="mt-60 mb-16 text-center animate-fade-in">
-        <h2 className="text-xl text-zinc-300 hover:text-transparent duration-500">
+        <h2 className="text-xl text-zinc-300 duration-500">
           Hey there! I&apos;m
         </h2>
       </div>
@@ -53,8 +53,8 @@ export default function Home() {
       </h1>
       <div className="hidden w-full h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="mt-24 mb-16 text-center animate-fade-in">
-        <h2 className="max-w-lg text-center text-base text-zinc-400 hover:text-transparent duration-500" >
-          Envisioning the future through code. <br /> Computer Science and Data Science at Purdue.
+        <h2 className="max-w-lg text-center text-base text-zinc-400 duration-500" >
+          Computer Science student at Purdue with a passion for full-stack, systems engineering, AI and blockchain while turning complex ideas into working projects that people can use.
         </h2>
       </div>
       <div className="mt-20 mb-10 text-center animate-fade-in">
