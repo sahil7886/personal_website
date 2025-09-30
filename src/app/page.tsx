@@ -54,7 +54,7 @@ export default function Home() {
       <div className="hidden w-full h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="mt-24 mb-16 text-center animate-fade-in">
         <h2 className="max-w-lg text-center text-base text-zinc-400 duration-500" >
-          Computer Science student at Purdue with a passion for full-stack, AI, finance and blockchain. Relentless about results.
+          Computer Science student at Purdue with a passion for full-stack engineering, AI, finance and blockchain. Relentless about results.
         </h2>
       </div>
       <div className="mt-20 mb-10 text-center animate-fade-in">
