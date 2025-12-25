@@ -12,10 +12,19 @@ export const projects: Project[] = [
   {
     id: "synq",
     title: "Synq",
-    description: "We're working on a DevOps platform that redefines developer workflows for fast-paced teams by integrating version control with project management. It features a custom VCS (Go & Python) that streamlines collaboration through task-based commits, automated file locks, majorly cutting merge conflicts.",
-    date: "May 2025 - Present",
-    dateTime: "2025-05",
-    href: "https://synq.website",
+    description: "Developing a protocol to enable real-time coordination and efficient capital allocation between autonomous AI agents and DAOs, optimizing cross-chain resource management and decision-making.",
+    date: "January 2025",
+    dateTime: "2025-01",
+    href: "https://synq.sh/",
+    showCheckItOut: true
+  },
+  {
+    id: "sageo",
+    title: "Sageo",
+    description: "A trust and discovery layer for AI agents built on the MOI blockchain. It implements verifiable identity, interaction tracking, and user context portability on top of Google's A2A protocol, enabling secure, on-chain proof of agent-to-agent communication.",
+    date: "December 2025",
+    dateTime: "2025-12",
+    href: "https://github.com/sahil7886/Sageo",
     showCheckItOut: true
   },
   {
@@ -137,4 +146,4 @@ export const projects: Project[] = [
     href: "https://devpost.com/software/boiler-maps",
     showCheckItOut: true
   }
-]; 
+];
