@@ -28,6 +28,15 @@ export const projects: Project[] = [
     showCheckItOut: true
   },
   {
+    id: "tmap",
+    title: "tmap",
+    description: "Food discovery platform where users mint dishes as on-chain tokens using ERC1155 bonding curves. Features GPS verification, Farcaster Mini-App, and gasless transactions on Base. Winner of 2nd Prize in Base Track at MBC 2025.",
+    date: "December 2025",
+    dateTime: "2025-12",
+    href: "https://devpost.com/software/tmap",
+    showCheckItOut: true
+  },
+  {
     id: "anypay",
     title: "AnyPay",
     description: "AnyPay is a Web3 payment platform that makes crypto accessible to everyone. It simplifies cross-chain payments with AI-powered expense splitting from images or text, and in-app wallet creation. Winner of 'Best use of Chainlink CCIP/CCT' at ETHGlobal NYC '25",
