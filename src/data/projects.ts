@@ -10,15 +10,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "sageo",
-    title: "Sageo",
-    description: "A trust and discovery layer for AI agents built on the MOI blockchain. It implements verifiable identity and interaction tracking on top of Google's A2A protocol, allowing for secure, on-chain proof of agent-to-agent communication without compromising data privacy.",
-    date: "December 2025",
-    dateTime: "2025-12",
-    href: "https://github.com/sahil7886/Sageo",
-    showCheckItOut: true
-  },
-  {
     id: "synq",
     title: "Synq",
     description: "We're working on a DevOps platform that redefines developer workflows for fast-paced teams by integrating version control with project management. It features a custom VCS (Go & Python) that streamlines collaboration through task-based commits, automated file locks, majorly cutting merge conflicts.",
@@ -146,4 +137,4 @@ export const projects: Project[] = [
     href: "https://devpost.com/software/boiler-maps",
     showCheckItOut: true
   }
-];
+]; 
